@@ -7,3 +7,5 @@
 6-working space ve stage de kodlarin durumunu gormek icin git status komutunu kullaniriz
 7_commit stora (yani versiyon olusturdugumuz yer)daki versiyonlarimizi gormek icin de git log --oneline komutunu kullaniriz
 8_Olusturmus oldugumuz versiyonu gitgithub a gonderebilmek icin git push <github repository > yada devamli kullanacagimiz bir repoysa git remote add origin master  /git push  -u master komutuyla  github a gonderebiliriz
+9_ Github a gonderdigimiz kodlari da baska bir calisma ortamina cekebilmek icin git pull <github repo adresi > yazarak cekebiliriz
+
