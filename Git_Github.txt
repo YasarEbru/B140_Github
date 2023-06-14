@@ -1,3 +1,8 @@
 --Localimizde Repo olusturabilmek icin
 1 _Calisacagimiz klasour secip yada yeni bir kalasor olusturup klasorun yolunu gosteren bolume cmd yazip enter yapip acmis oldugumuz klasorun yolunda terminalimizi acmis oluruz
 2_Ve bu dizinde acilan terminale git init yazariz ve initilase empty git repository yazisini gordugumuzde bu calisma alanimizda bos bir repository olusturmus oluruz
+3_ git init yaptiktan sonraki calisma alanimizin ismine working space denir 
+4-git add . komutuyla working space deki kodlarimizi staging area dedigimiz bekleme alanina tasiriz
+5_git commit -m"versiyon adi" kodunu yazarak stage deki kodlarimizdan versiyon olusturmus oluruz
+6-working space ve stage de kodlarin durumunu gormek icin git status komutunu kullaniriz
+7_commit stora (yani versiyon olusturdugumuz yer)daki versiyonlarimizi gormek icin de git log --oneline komutunu kullaniriz
