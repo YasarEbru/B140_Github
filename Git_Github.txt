@@ -1,4 +1,4 @@
---Localimizde Repo olusturabilmek icin ve Git Github kullanimi
+--Localimizde Repo olusturabilmek icin
 1 _Calisacagimiz klasour secip yada yeni bir kalasor olusturup klasorun yolunu gosteren bolume cmd yazip enter yapip acmis oldugumuz klasorun yolunda terminalimizi acmis oluruz
 2_Ve bu dizinde acilan terminale git init yazariz ve initilase empty git repository yazisini gordugumuzde bu calisma alanimizda bos bir repository olusturmus oluruz
 3_ git init yaptiktan sonraki calisma alanimizin ismine working space denir 
@@ -6,22 +6,6 @@
 5_git commit -m"versiyon adi" kodunu yazarak stage deki kodlarimizdan versiyon olusturmus oluruz
 6-working space ve stage de kodlarin durumunu gormek icin git status komutunu kullaniriz
 7_commit stora (yani versiyon olusturdugumuz yer)daki versiyonlarimizi gormek icin de git log --oneline komutunu kullaniriz
-8_Olusturmus oldugumuz versiyonu gitgithub a gonderebilmek icin git push <github repository > yada devamli kullanacagimiz bir repoysa  
-bir kerelik -->git remote add origin <github rpo adresi> sonra --> git push  -u master komutuyla  github a gonderebiliriz
+8_Olusturmus oldugumuz versiyonu gitgithub a gonderebilmek icin git push <github repository > yada devamli kullanacagimiz bir repoysa git remote add origin master  /git push  -u master komutuyla  github a gonderebiliriz
 9_ Github a gonderdigimiz kodlari da baska bir calisma ortamina cekebilmek icin git pull <github repo adresi > yazarak cekebiliriz
-10_Localimizde ilisilendirdigimiz adresi git remote -v komutuyla gorebiliriz 
-11_Github tarafinda yaptigimiz bir degisiklik olursa adresi bir kerelik tanimladigimiz icin sadece git pull yapmamiz yeterlidir.
-Ayni adresi tanimladigimiz icin sadece git push komutu ile de kodlarimizi gonderebiliriz
-
---Restore / Branch ve Stash komutlari
-1- Working Space ve Staging Area daki yapmış olduğumuz değişiklikleri geri alabiliriz.
-Working Space de yaptığımız bir güncellemeyi geri almak için ---> git restore <-- komutuyla yapılan değişiklikleri geri alabiliriz
-Eğer Stage den geri almak istersek --> git restore -- staged .<--komutuyla geri alabiliriz
-Ama herikisinden de yazdiklaarimizi kaldirmak istersek --> git reset --hard <-- komutunu kullaniriz
-
-
-
-
-
-
 
