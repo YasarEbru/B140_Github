@@ -13,3 +13,5 @@ bir kerelik -->git remote add origin <github rpo adresi> sonra --> git push  -u 
 11_Github tarafinda yaptigimiz bir degisiklik olursa adresi bir kerelik tanimladigimiz icin sadece git pull yapmamiz yeterlidir.
 Ayni adresi tanimladigimiz icin sadece git push komutu ile de kodlarimizi gonderebiliriz
 
+--Restore / Branch ve Stash komutlari
+
