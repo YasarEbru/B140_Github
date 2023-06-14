@@ -14,4 +14,14 @@ bir kerelik -->git remote add origin <github rpo adresi> sonra --> git push  -u 
 Ayni adresi tanimladigimiz icin sadece git push komutu ile de kodlarimizi gonderebiliriz
 
 --Restore / Branch ve Stash komutlari
+1- Working Space ve Staging Area daki yapmış olduğumuz değişiklikleri geri alabiliriz.
+Working Space de yaptığımız bir güncellemeyi geri almak için ---> git restore <-- komutuyla yapılan değişiklikleri geri alabiliriz
+Eğer Stage den geri almak istersek --> git restore -- staged .<--komutuyla geri alabiliriz
+Ama herikisinden de yazdiklaarimizi kaldirmak istersek --> git reset --hard <-- komutunu kullaniriz
+
+
+
+
+
+
 
